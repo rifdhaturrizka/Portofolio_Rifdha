@@ -1,107 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portofolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portofolio | Rifdha Turrizka </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="home">
-   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
-    <div class="container">
-        <a class="navbar-brand" href="#">Rifdha Turrizka</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #02c6c6;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Rifdha Turrizka</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-   </nav>
+  </nav>
+  <!-- Akhir Navbar -->
 
-<main>
-    <section class="jumbotron text-center">
-        <img src="about.png" alt="Rifdha Turrizka" width="200" class="rounded-circle img-thumbnail"/>
+  <!-- Jumbotron -->
+  <main>
+    <section class="jumbotron text-center text-dark" >
+      <div style="padding-top:80px; background-color: #e2edff">
+        <img src="Gambar_1/Cover_1.jpg" alt="Rifdha Turrizka" width="200" class="rounded img-thumbnail"/>
         <h1 class="display-4">Rifdha Turrizka</h1>
+        <p class="lead">Lecturer |Conten creator</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L21.8,42.7C43.6,53,87,75,131,74.7C174.5,75,218,53,262,80C305.5,107,349,181,393,218.7C436.4,256,480,256,524,240C567.3,224,611,192,655,181.3C698.2,171,742,181,785,197.3C829.1,213,873,235,916,250.7C960,267,1004,277,1047,256C1090.9,235,1135,181,1178,170.7C1221.8,160,1265,192,1309,181.3C1352.7,171,1396,117,1418,90.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+      </div>
     </section>
 
-    <section id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 pt-4">
-                    <h5 class="mt-4 jargon">Best Destinations arond the world</h5>
-                    <h1 class="display-2">Travel enjjoy</h1>
-                    <p class="text-secondary">rumah makan padang</p>
-                    <button type="button" class="btn btn-warning">Find out More</button>
-                </div>
-                <div class="col-12 col-lg-6 pt-4">
-                    <img src="gambar.jpeg" class="img-fluid">
-                </div>
+    <!-- About -->
+    <section id="about" style="min-height: 400px;">
+        <div class="container-fluid">
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2>About Me</h2>
             </div>
+          </div>
+          <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-5 mb-3">
+              <p>Lulusan S-1 Teknik Elektro dari Universitas Muhammadiyah Yogyakarta dengan IPK sebesar 3.03 (skala 4.00). Saya memiliki ketertarikan bekerja di bidang Software Engineering seperti pemrograman dan Internet of Things (IoT). Kemudian mampu mengoperasikan Microsoft Office, software teknik (Matlab, PLC, Arduino IDE, C++) dan saya juga telah memiliki pengalaman proyek pengembangan sistem IoT menggunakan Arduino dan ESP32 serta platform cloud yang digunakan untuk memenuhi kebutuhan proyek selama kuliah.</p>
+            </div>
+            <div class="col-md-5 mb-3">
+              <p>Ketika kuliah, saya aktif mengikuti berbagai kegiatan dan organisasi yang memperkaya pengalaman serta keterampilan, komunikasi, dan kepemimpinan. Saya belajar menerapkan pengetahuan dan keahlian saya di dunia kerja, khususnya dalam bidang teknologi yang berkembang pesat dengan semangat belajar yang tinggi, siap menghadapi tantangan baru dan berkontribusi secara positif di lingkungan profesional.</p>
+            </div>
+          </div>
         </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L40,138.7C80,117,160,75,240,85.3C320,96,400,160,480,181.3C560,203,640,181,720,149.3C800,117,880,75,960,85.3C1040,96,1120,160,1200,186.7C1280,213,1360,203,1400,197.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
-
-    <section id="category">
-        <div class="cntainer">
-           <div>
-            <h6 class="text-center mt-4">Category</h6>
-            <h1 class="text-center h1">we offer best services</h1>
-           </div>
-
-           <div class="row g-3">
-            <div class="col-6 col-lg-3">
-              <div class="card text-center card-category">
-                <img src="asset/image/cat-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Calculated Weather</h5>
-                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+    <!-- Akhir About -->
+    
+    <!-- Awal Projek -->
+    <section id="projects" style="background-color: #e2edff;">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="text-center mb-4">My Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img src="Gambar_1/Machine learning.png" class="card-img-top" alt="Project_1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
+          </div>
 
-            <div class="col-6 col-lg-3">
-                <div class="card text-center card-category">
-                  <img src="asset/image/cat-2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Best Flights</h5>
-                    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-            
-            <div class="col-6 col-lg-3">
-                <div class="card text-center card-category">
-                  <img src="asset/image/cat-3.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Local Events</h5>
-                    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img src="Gambar_1/Machine learning.png" class="card-img-top" alt="Project_1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img src="Gambar_1/Machine learning.png" class="card-img-top" alt="Project_1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img src="Gambar_1/Machine learning.png" class="card-img-top" alt="Project_1">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
 
         </div>
-
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L12,144C24,128,48,96,72,117.3C96,139,120,213,144,213.3C168,213,192,139,216,122.7C240,107,264,149,288,144C312,139,336,85,360,69.3C384,53,408,75,432,69.3C456,64,480,32,504,48C528,64,552,128,576,165.3C600,203,624,213,648,186.7C672,160,696,96,720,96C744,96,768,160,792,176C816,192,840,160,864,133.3C888,107,912,85,936,69.3C960,53,984,43,1008,42.7C1032,43,1056,53,1080,69.3C1104,85,1128,107,1152,101.3C1176,96,1200,64,1224,90.7C1248,117,1272,203,1296,202.7C1320,203,1344,117,1368,85.3C1392,53,1416,75,1428,85.3L1440,96L1440,320L1428,320C1416,320,1392,320,1368,320C1344,320,1320,320,1296,320C1272,320,1248,320,1224,320C1200,320,1176,320,1152,320C1128,320,1104,320,1080,320C1056,320,1032,320,1008,320C984,320,960,320,936,320C912,320,888,320,864,320C840,320,816,320,792,320C768,320,744,320,720,320C696,320,672,320,648,320C624,320,600,320,576,320C552,320,528,320,504,320C480,320,456,320,432,320C408,320,384,320,360,320C336,320,312,320,288,320C264,320,240,320,216,320C192,320,168,320,144,320C120,320,96,320,72,320C48,320,24,320,12,320L0,320Z"></path></svg>
     </section>
-</main>
+    <!-- Akhir projek -->
+
+    <!-- Contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              
+              
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+       
+    </section>
 
 
-   
+    <!-- Akhir contact -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <section>
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </section>
+      
+  </main>
+</body>
+</html>
+
+
+
+
+
+gfgsgf
+<hghh
+
+
+
 
 
    
